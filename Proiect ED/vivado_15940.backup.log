@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Jan 14 17:24:05 2021
+# Process ID: 15940
+# Current directory: C:/Users/Claudia/Desktop/Proiect ED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10476 C:\Users\Claudia\Desktop\Proiect ED\Proiect ED.xpr
+# Log file: C:/Users/Claudia/Desktop/Proiect ED/vivado.log
+# Journal file: C:/Users/Claudia/Desktop/Proiect ED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:13 . Memory (MB): peak = 1034.887 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: reg_par
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1502.070 ; gain = 243.977
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'reg_par' [C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.srcs/sources_1/new/REG paralel - inel - v1.vhd:40]
+WARNING: [Synth 8-614] signal 'aux' is read in the process but is not in the sensitivity list [C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.srcs/sources_1/new/REG paralel - inel - v1.vhd:83]
+WARNING: [Synth 8-614] signal 'Data' is read in the process but is not in the sensitivity list [C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.srcs/sources_1/new/REG paralel - inel - v1.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'reg_par' (1#1) [C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.srcs/sources_1/new/REG paralel - inel - v1.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1554.234 ; gain = 296.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1554.234 ; gain = 296.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1554.234 ; gain = 296.141
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1554.234 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.srcs/constrs_1/new/REG paralel - inel - v1.xdc]
+Finished Parsing XDC File [C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.srcs/constrs_1/new/REG paralel - inel - v1.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1635.863 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1672.195 ; gain = 414.102
+6 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:33 . Memory (MB): peak = 1672.195 ; gain = 637.309
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 14 17:26:39 2021...

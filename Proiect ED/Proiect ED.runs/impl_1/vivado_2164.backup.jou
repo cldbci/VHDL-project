@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Jan 14 16:54:55 2021
+# Process ID: 2164
+# Current directory: C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.runs/impl_1
+# Command line: vivado.exe -log reg_par.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source reg_par.tcl -notrace
+# Log file: C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.runs/impl_1/reg_par.vdi
+# Journal file: C:/Users/Claudia/Desktop/Proiect ED/Proiect ED.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source reg_par.tcl -notrace
